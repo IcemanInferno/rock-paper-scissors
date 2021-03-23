@@ -7,10 +7,26 @@
     </head>
 
     <body>        
-        <script src = "Scripts/Javascript.js">                        
-            console.log(computerPlay())
-            
+        <div id="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
 
+        <div id="scoreboard">
+            <h1>Score</h1>
+
+            <h2>Player</h2>
+            <h3 id="playerScore"></h3>
+            
+            <h2>Computer</h2>
+            <h3 id="computerScore"></h3>
+        </div>
+
+        <div id="result" style="color: red;"></div>
+
+        <script src = "Javascript.js">                        
+            console.log(computerPlay())
         </script>
     </body>
 </html>
